@@ -4,7 +4,7 @@ btn.onclick = addToDo;
 
 function addToDo() {     
     let c_pul = ["blue", "#ffa400", "green", "red", "#00d669", "#530cff"];           
-    r_color = document.querySelector('.radio:checked') !== null ? r_color = document.querySelector('.radio:checked').value : r_color = c_pul[Math.floor(Math.random()*c_pul.length)]; /*Избавиться от if, выбрать цвет сразу*/
+    r_color = document.querySelector('.radio:checked') !== null ? r_color = document.querySelector('.radio:checked').value : r_color = c_pul[Math.floor(Math.random()*c_pul.length)];
     addItem();
 }
 
