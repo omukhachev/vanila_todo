@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Vanilla ToDo</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="label">
+                <div class="title">
+                    Your todos
+                </div>
+            </div>        
+            <div class="input" id = input_div>
+                <input class="todo_in" placeholder="Add new item" id="input_text">
+                <label class="cont">
+                    <input class="radio" type="radio" name="color_pick" value="blue" id="r1">
+                    <span class="color_pick" style="background-color: blue"></span>
+                </label>
+                <label class="cont">
+                    <input class="radio" type="radio" name="color_pick" value="#ffa400" id="r2">
+                    <span class="color_pick" style="background-color: #ffa400"></span>
+                </label>
+                <label class="cont">
+                    <input class="radio" type="radio" name="color_pick" value="green" id="r3">
+                    <span class="color_pick" style="background-color: green"></span>
+                </label>
+                <label class="cont">
+                    <input class="radio" type="radio" name="color_pick" value="red" id="r4">
+                    <span class="color_pick" style="background-color: red"></span>
+                </label>
+                <label class="cont">
+                    <input class="radio" type="radio" name="color_pick" value="#00d669" id="r5">
+                    <span class="color_pick" style="background-color: #00d669"></span>
+                </label>
+                <label class="cont">
+                    <input class="radio" type="radio" name="color_pick" value="#530cff" id="r6">
+                    <span class="color_pick" style="background-color: #530cff"></span>
+                </label>
+                
+                <button class="add_btn" onclick="Add_ToDo()">Add</button>
+             </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,111 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    align-items: left;
+    font-family:'CG Times', 'Times New Roman';
+    width: 450px;
+   
+}
+.input, .point {
+    display: flex;
+    justify-content: left;
+    font-family:'CG Times', 'Times New Roman';
+    font-weight: 500;
+    font-size: 16px;    
+    border: solid #ccc 1px;    
+    border-radius: 3px;    
+    
+}
+
+.input {    
+    width: 448px;
+}
+
+.todo_in{
+    font-size: 12px;
+    padding: 15px;
+    border:0px;
+    outline: none;
+    width: 230px;
+}
+
+.add_btn{
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    margin: 5px 5px 5px 19px; 
+    width: 50px;
+    cursor: pointer;
+    font-size: 12px;
+    
+}
+
+.add_btn:active{
+    background-color: rgb(0, 100, 100);
+}
+
+
+
+.point {
+    display: flex;  
+    border-radius: 0px;
+    border: none;
+    justify-content: left;
+}
+
+.checker, .item_text {
+    padding: 15px;
+    margin: 1px;
+    color: white;
+}
+
+.chekcer {
+    width: 10%;    
+}
+
+.item_text {
+    width: 90%;
+    /*letter-spacing: -1px;*/
+    font-weight: 500;
+}
+
+.title {
+    padding-bottom: 20px;
+}
+
+.radio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    
+}
+
+.cont {
+    height: 15px;
+    width: 15px;
+    margin: 15px 3px;
+}
+
+.color_pick {
+    display: block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid white;    
+    cursor: pointer;
+}
+
+.cont .radio:checked ~ .color_pick {
+    outline: solid orange 1px;
+}
+
+@font-face {
+    font-family: 'CG Times';
+    src: url(fonts/ofont.ru_CG\ Times.ttf);
+}
